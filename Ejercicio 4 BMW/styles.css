@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: white;
+    text-decoration: white;
+}
+
+button {
+    border-radius: 1px;
+    background-color: rgb(0, 101, 177);
+    width: 20%;
+    padding: 1%;
+    border-radius: 1px;
+    border: 0;
+    color: white;
+    font-size: 15px;
+    margin: 1% 0 1% 4%;
+}
+
+
+
+/* --------//BODY//--------- */
+
+body {}
+
+/* ---------//HEADER//---------- */
+
+header {
+    background-image: url(img/bmw-x-series-x1-sp-desktop.jpg);
+    background-size: cover;
+    background-position: top center;
+}
+
+/* ------//NAV//-------- */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 15%;
+}
+
+.b-nav__e {}
+
+.b-nav__e1 {
+    margin-left: -40px;
+}
+
+.b-nav__e2 {
+    margin-left: -40px;
+}
+
+.b-nav__e3 {
+    margin-left: -40px;
+    margin-right: 250px;
+}
+
+.b-nav_icon {
+    margin-right: -40px;
+}
+
+.b-nav_icon1 {
+    margin-right: -40px;
+}
+
+.b-nav_icon2 {
+    margin-right: -100px;
+}
+
+.b-nav_logob {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.b-nav_logo {
+    display: flex;
+    background-color: white;
+    width: 99%;
+    height: 0%;
+    justify-content: center;
+    align-items: center;
+}
+
+.b-nav__logo {
+    padding: 10%;
+}
+
+.b-nav_span {
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    margin-top: 2px;
+    background-color: white;
+}
+
+.b-nav__span {
+    background-color: white;
+    margin-top: 0%;
+    font-size: 7px;
+}
+
+.b-nav__titulo {
+    margin-top: 26%;
+    font-size: 19px;
+    color: white;
+    margin-left: 4%;
+}
+
+.b-nav__subtitulo {
+    color: white;
+    margin: 1% 0 1% 4%;
+}
+
+/* -------- //MAIN//--- */
+
+.b-menu {
+    padding: 0px 4% 0 14%;
+}
+
+.b-menu_ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+
+.b-menu_li {
+    font-weight: 700;
+    list-style: none;
+    font-size: 20px;
+    color: grey;
+}
+
+/* --------//GALERIA//----- */
+
+.b-galeria {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0% 0% 0% 14%;
+    justify-content: space-between;
+}
+
+.b-galeria_item {
+    margin: 1%;
+}
+
+.galeria_text {}
+
+.b-galeria_titulo {}
+
+.b-articulos {
+    display: flex;
+    margin: 16% 0 10% 14%;
+    flex-direction: row;
+    flex-wrap: wrap
+}
+
+.b-articulos_item {
+    width: 21%;
+}
+
+.b-articulos_img {
+    margin: 3% 3%;
+    width: 200px;
+    height: 100px;
+}

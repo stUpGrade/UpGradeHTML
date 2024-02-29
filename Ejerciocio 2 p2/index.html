@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>mailChimp</title>
+</head>
+<body>
+    
+        <div class="logo">
+            <img src="imagenes/mailchimp.png">
+        </div>
+    
+    <div class="formulario">
+        <h1>Welcome to Mailchimp</h1>
+        <p>Find your people. Engage your customers. Build your brand. Do it all with Mailchimp's Marketing Plarform. Already have an account?<a href="https://login.mailchimp.com/?locale=es">Log in</a></p>
+        
+        <form>
+
+            <label for="email">
+                <legend>Email</legend>
+                <input class="--label" name="email" type="email">
+            </label>
+            
+            <label for="Username">
+                <legend>Username</legend>
+                <input class="--label" name="Username"type="text">
+            </label>
+
+            <label for="Password">
+                <legend>Password</legend>
+                <input class="--label" name="Password" type="password" minlength="8" maxlength="16" pattern="(?=.*[A-Z])(?=.*[a-z])(?=.*\d)(?=.*[!@#$%^&*()_+])[A-Za-z\d!@#$%^&*()_+]{8,}" required>
+            </label>
+
+        </form>
+        
+        <div class="--flex">
+            <div class="lista1">
+                <ul>
+                    <li>One lowercase</li>
+                    <li>One uppercase character</li>
+                    <li>One number</li>
+                </ul>
+            </div>
+
+            <div class="lista2">
+                <ul>
+                    <li>One special character</li>
+                    <li>8 characters minimum</li>
+                </ul>
+            </div>
+        </div>        
+
+        <div class="--flex">
+            <div>
+                <button>Sing Up</button>
+            </div>
+
+            <div class="--flex">
+                <input class="check" name="check" type="checkbox">
+            </div>
+
+            <div class="checkText --flex">
+                <span>I don't want to receive emails about new Mailchimp products, best practices, or special offers.</span>
+            </div>
+        </div>        
+
+        <div class="finalText">
+        <SPan>By clicking the "Sing Up" button, you are creating a Mailchimp account, and you agree to Mailchimp's <a href="">Terms of Use</a> and <a href="">Privacy Policy</a>.</SPan>
+        </div>
+
+    </div>
+   
+</body>
+</html>

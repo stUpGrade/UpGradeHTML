@@ -1,0 +1,34 @@
+.box {
+    width: 100%;
+    height: 10%;
+    background-color: white;
+    
+}
+.logo1 {
+    margin-left: 50px;
+    margin-top: 30px;
+}
+.login {
+    margin-left: 85%;
+    margin-top: -30px;
+}
+.login2 {
+    margin-top: 10px;
+    margin-left: 85%;
+}
+.span {
+    margin-bottom: 10px;
+}
+
+.main1 {
+    width: 100%;
+    height: 500px;
+    padding-left: 250px;
+}
+.header1 {
+    height: 150px;
+    width: 100%;
+}
+.border {
+    border: 0px;
+}

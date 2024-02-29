@@ -1,0 +1,62 @@
+body{
+    display: flex;
+}
+
+.logo {
+    display: flex;
+    width: 50%;
+}
+
+img{
+    margin: auto;
+    max-width: 50%;
+    max-height: 43%;
+   
+}
+
+.--flex{
+    display: flex;
+}
+
+li{
+    list-style-color: blue;
+}
+
+.formulario {
+    width: 50%;
+}
+
+.--label{
+    width: 90%;
+    border-radius: 3px;
+}
+
+
+.lista1 {
+    width: 50%;
+}
+
+.lista2 {
+    width: 50%;
+}
+
+button {
+    color: grey;
+    border-radius: 3px;
+    border-color: grey;
+    background-color: white;
+    width: 131px;
+    height: 63px;
+}
+
+.check {
+    width: 20px;
+}
+
+.checkText {
+    align-items: center;
+}
+
+.finalText {
+    margin-top: 35px;
+}

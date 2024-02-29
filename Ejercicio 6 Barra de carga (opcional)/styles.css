@@ -1,0 +1,25 @@
+body{
+    background-color: blue;
+}
+
+.barra-carga {
+    margin: 10%;
+    padding: 10px;
+    width: 50%;
+    height: 21px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.progreso {
+    width: 0; 
+    height: 100%;
+    background-color: #007bff; 
+    animation: aumentar-ancho 2s ease-in-out infinite alternate; 
+}
+
+@keyframes aumentar-ancho {
+    0% { width: 0; } /* Anchura inicial */
+    100% { width: 100%; } /* Anchura final */
+}

@@ -1,0 +1,53 @@
+.general{
+    height: 634px;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.b-appleWatch{
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    
+}
+
+.b-appleWatch__button{
+
+}
+
+.button{
+    margin-right: 25px;
+    padding: 10px 20px;
+    font-size: 131%;
+    border: none;
+    border-radius: 980px;
+    color: white;
+    background-color: rgb(0, 113, 227);
+
+}
+
+.mas__informacion{
+    text-decoration: none;
+
+}
+
+.b-appleWatch2{
+    width: 50%;
+    max-width: 100%;
+}
+
+.b-appleWatch__img2{
+    max-width: 100%;
+}
+
+h1{
+    font-size: 30px;
+}
+
+body{
+    background-color: rgb(245, 245, 247);
+}
+

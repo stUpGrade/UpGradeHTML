@@ -1,0 +1,38 @@
+.b-galeria{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.b-galeria__item{
+    width: calc(25% - -50px);
+    margin: 10px;
+}
+
+.b-galeria__text{
+    text-align: none;
+}
+
+.b-galeria__titulo{
+    display: block;
+    margin: 2px 0;
+    font-synthesis-weight: normal;
+    font-size: 16px;}
+
+.b-galeria__subtitulo{
+    color: grey;
+}
+
+.b-galeria__precio{
+    font-weight: bold;
+}
+
+img{
+    max-width: 100%;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h3 {
+    color: grey;
+}
